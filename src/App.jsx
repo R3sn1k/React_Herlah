@@ -44,6 +44,7 @@ export default function App() {
 
   return (
     <>
+      <a href="https://github.com/R3sn1k/React_Herlah" className="github-link">GitHub</a>
       <NewTodoForm onSubmit={addTodo} />
       <h1 className="header">Seznam opravil</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
